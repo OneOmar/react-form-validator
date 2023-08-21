@@ -2,8 +2,6 @@ import React from 'react'
 
 export const Input = ({ onChange, errorMessage, ...props }) => {
 
-    // const inputClass = `form-control${error ? ' is-invalid' : 'is-vaild'}`
-
     return (
         < div className='mb-3' >
             <input
